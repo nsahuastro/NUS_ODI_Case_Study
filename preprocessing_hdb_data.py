@@ -52,7 +52,7 @@ def preprocessing_hdb_dataframe(df):
         return total_years
     clean_df['remaining_lease'] = convert_remaining_lease_vectorized(clean_df['remaining_lease'])
 
-    # 4. For NaN remaining_lease, calculate from lease_commence_date and month
+    # 4. Some rows do not have 'remaining_lease' For NaN remaining_lease, calculate from lease_commence_date and month
     print("Calculating missing remaining_lease values...")
     '''
     def calculate_remaining_lease(row):
@@ -79,5 +79,8 @@ def preprocessing_hdb_dataframe(df):
 
     clean_df['storey_range_min'] = ranges['min'].fillna(single['single']).astype(int)
     clean_df['storey_range_max'] = ranges['max'].fillna(single['single']).astype(int)
+
+    #Replacing ocurrances of MULTI GENERATION by MULTI-GENERATION
+    clean_df['flat_type'] = clean_df['flat_type'].str.replace('MULTI GENERATION', 'MULTI-GENERATION', case=False)
 
     return clean_df
