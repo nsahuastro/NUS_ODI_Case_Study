@@ -8,27 +8,26 @@ This repository contains a comprehensive analysis of Singapore's HDB resale pric
 ### Data Processing
 - get_hdb_data.py: Functions to fetch HDB data from government APIs
 - preprocessing_hdb_data.py: Data cleaning and preprocessing utilities
-- hdb_analysis.ipynb: Notebook for geocoding and enriching HDB data with MRT information
+- hdb_analysis.ipynb: Notebook for geocoding and enriching HDB data with MRT information. See [README](README_HDB_Data_cleaning_aggregration_and_setup) for more details.
 
 ### Models
 1. **XGBoost Models**
-   - HDB_Price_Predictor_XGBoost_Model_V1.ipynb: Basic XGBoost implementation
-   - HDB_Price_Predictor_XGBoost_Model_V2.ipynb: Enhanced XGBoost with additional features
+   - HDB_Price_Predictor_XGBoost_Model_V1.ipynb: Basic XGBoost implementation, check model [README](README_XGBoost_Model_V1.md)
+   - HDB_Price_Predictor_XGBoost_Model_V2.ipynb: Enhanced XGBoost with additional features, check model  [README](README_XGBoost_Model_V2.md) 
    - See individual model READMEs for detailed performance metrics
-        - [Version1](README_XGBoost_Model_V1.md)
-        - [Version2](README_XGBoost_Model_V2.md) 
+        
 
 2. **Random Forest Model**
    - HDB_Price_Predictor_RandomForrest_Model_V1.ipynb: Random Forest implementation
-   - Refer to model README for feature importance and accuracy metrics
+   - Refer to model [README](README_RandomForrest_Model_V1)for feature importance and accuracy metrics
 
 3. **Statistical Model**
    - HDB_Price_Predictor_OLS_Statsmodel_V1.ipynb: OLS regression analysis
-   - Check model README for statistical insights
+   - Check model [README](README_OLS_Statsmodel_V1) for statistical insights
 
 4. **Classification Model**
    - Flat_Type_Classification_Model.ipynb: Predicts flat types using various features
-   - See model README for classification performance details
+   - See model [README](README_Flat_Type_Classification_Model) for classification performance details
 
 ### Data Folders
 - Processed_Data: Contains cleaned and enriched datasets
