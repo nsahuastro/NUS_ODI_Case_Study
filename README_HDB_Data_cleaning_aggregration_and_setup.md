@@ -112,15 +112,8 @@ Final dataset includes:
 - Distance to MRT
 - Unique transaction IDs
 
-## Future Improvements
-1. Implement batch processing for API calls
-2. Add error recovery mechanisms
-3. Include more POI distances
-4. Add data validation steps
-5. Implement progress tracking
-
 ## Known Limitations
 - API rate limits
 - Geocoding accuracy depends on address format
 - MRT distance limited to 4km radius
-- Some addresses may not be geocoded
+- Some addresses may not be geocoded (<1.5%)

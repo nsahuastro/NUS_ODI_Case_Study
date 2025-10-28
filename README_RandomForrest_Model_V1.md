@@ -102,14 +102,4 @@ predicted_price, similar_flats = predict_resale_price(
 - No location-based features
 - Limited price factors
 
-## Future Improvements
-- Add more features:
-  - Floor area
-  - Storey range
-  - Remaining lease
-  - Distance to amenities
-- Implement:
-  - Cross-validation
-  - Feature importance analysis
-  - Confidence intervals
-  - Time-based validation
+

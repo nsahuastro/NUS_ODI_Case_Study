@@ -103,15 +103,5 @@ predicted_price, similar_flats = predict_resale_price(
   1. Time trend bias
   2. Nonlinearity in relationships
 
-## Future Improvements
-1. Address underprediction:
-   - Add time interaction terms
-   - Consider non-linear transformations
-2. Enhance features:
-   - Add location metrics
-   - Include market indicators
-3. Implement:
-   - Robust regression options
-   - Cross-validation
-   - Confidence intervals
+
 

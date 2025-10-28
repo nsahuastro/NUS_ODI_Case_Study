@@ -96,7 +96,7 @@ predicted_price, similar_flats = predict_resale_price(
 - Consider local market conditions when interpreting results
 
 ## Possible Future Improvements
-- Add more features (e.g., amenities proximity) from external daya
+- Add more features (e.g., amenities proximity) from external data
 - Implement time-series components
 - Add confidence intervals for predictions using Bayesian model
 - Include market trend adjustments
