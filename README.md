@@ -15,6 +15,8 @@ This repository contains a comprehensive analysis of Singapore's HDB resale pric
    - HDB_Price_Predictor_XGBoost_Model_V1.ipynb: Basic XGBoost implementation
    - HDB_Price_Predictor_XGBoost_Model_V2.ipynb: Enhanced XGBoost with additional features
    - See individual model READMEs for detailed performance metrics
+        - [Version1](README_XGBoost_Model_V1.md)
+        - [Version2](README_XGBoost_Model_V2.md) 
 
 2. **Random Forest Model**
    - HDB_Price_Predictor_RandomForrest_Model_V1.ipynb: Random Forest implementation
