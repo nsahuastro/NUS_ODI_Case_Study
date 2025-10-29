@@ -19,15 +19,15 @@ This repository contains a comprehensive analysis of Singapore's HDB resale pric
 
 2. **Random Forest Model**
    - HDB_Price_Predictor_RandomForrest_Model_V1.ipynb: Random Forest implementation
-   - Refer to model [README](README_RandomForrest_Model_V1)for feature importance and accuracy metrics
+   - Refer to model [README](README_RandomForrest_Model_V1.md)for feature importance and accuracy metrics
 
 3. **Statistical Model**
    - HDB_Price_Predictor_OLS_Statsmodel_V1.ipynb: OLS regression analysis
-   - Check model [README](README_OLS_Statsmodel_V1) for statistical insights
+   - Check model [README](README_OLS_Statsmodel_V1.md) for statistical insights
 
 4. **Classification Model**
    - Flat_Type_Classification_Model.ipynb: Predicts flat types using various features
-   - See model [README](README_Flat_Type_Classification_Model) for classification performance details
+   - See model [README](README_Flat_Type_Classification_Model.md) for classification performance details
 
 ### Data Folders
 - Processed_Data: Contains cleaned and enriched datasets
