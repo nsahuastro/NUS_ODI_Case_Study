@@ -2,6 +2,7 @@
 Question_&_PPT/
 ResaleFlatPrices/
 Processed_Data/
+figures/
 
 
 HDB_Resale_Prices_new_wo_2017_onwords/
@@ -10,4 +11,7 @@ Book_S1_Q2_copy.twb Files/
 *.twb
 Book*
 onemap_token.txt
+*.png
+*.jpeg
+
 

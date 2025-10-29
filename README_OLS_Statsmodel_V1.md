@@ -1,7 +1,9 @@
 # HDB Price Predictor (OLS Statsmodel V1)
 
 ## Overview
-A statistical modeling approach using Ordinary Least Squares (OLS) regression to predict HDB resale prices in Singapore. The model uses log-transformed prices and includes time-based analysis.
+A statistical modeling approach using Ordinary Least Squares (OLS) regression to predict HDB resale prices in Singapore. The model uses log-transformed prices and includes time-based analysis. The model is trained on historical data up to 2013 (threshold year ) and validates predictions for 2014. You can change the threshold year as per your requirement.
+
+The model provides a statistical baseline with interpretable coefficients but consider more flexible approaches (Model 2=Random Forest, Model 3=XGBoost) for better accuracy.
 
 ## Key Components
 
@@ -12,6 +14,25 @@ Features:
 Target:
 - log10(resale_price)
 
+### Exploratory Data Analysis
+
+#### **Data Quality Checks**
+- **Size:** Dataset dimensions (rows × columns)  
+- **Missing Values:** Detection and visualization using *missingno*  
+- **Infinite Values:** Validation in numeric columns  
+- **Zero Values:** Analysis of zero-value distributions  
+- **Unique Values:** Cardinality checks for categorical features  
+- **Memory Usage:** Resource utilization and optimization review  
+
+#### **Price Distribution Analysis**
+- **Temporal Trends:** 4-year binned resale prices (1990–2025)  
+- **Density Plots:** KDE visualizations of price evolution  
+- **Year Groups:** Comparison of chronological pricing patterns  
+
+#### **Visualization Outputs**
+1. **Missing Value Matrix** – Visual overview of data completeness and missing-data patterns  
+2. **Correlation Heatmap** – Relationships among numeric features and price correlation insights  
+3. **Price Distribution Plots** – Temporal evolution, price range analysis, and density visualization  
 
 ### 2. Core Functions
 
