@@ -1,7 +1,7 @@
 # HDB Price Analysis and Prediction
 
 ## Overview
-This repository contains a comprehensive analysis of Singapore's HDB resale prices, including data processing, visualization, and multiple prediction models implemented in Jupyter notebooks.
+This repository contains a comprehensive analysis of Singapore's HDB resale prices, including data processing, visualization,  multiple prediction models, classification model, and policy/governance models implemented in Jupyter notebooks.
 
 ## Repository Structure
 
@@ -28,6 +28,10 @@ This repository contains a comprehensive analysis of Singapore's HDB resale pric
 4. **Classification Model**
    - Flat_Type_Classification_Model.ipynb: Predicts flat types using various features
    - See model [README](README_Flat_Type_Classification_Model.md) for classification performance details
+
+5. **Difference in Differences Model**
+   - DiD_Model.ipynb: Analyses causal effect of DT line 2 opening on resale prices of HDBs in towns served by this line
+   - See model [README](README_ DiD_Model.md) for details
 
 ### Data Folders
 - Processed_Data: Contains cleaned and enriched datasets
