@@ -31,7 +31,14 @@ This repository contains a comprehensive analysis of Singapore's HDB resale pric
 
 5. **Difference in Differences Model**
    - DiD_Model.ipynb: Analyses causal effect of DT line 2 opening on resale prices of HDBs in towns served by this line
-   - See model [README](README_ DiD_Model.md) for details
+   - See model [README](README_DiD_Model.md) for details
+6. **HDB Prices and CAR COE Relationship Analysis**
+   - Car_COE_vs_HDB_price_relation.ipynb : analyzes the relationship between Singapore's HDB resale prices and Car COE (Certificate of Entitlement) prices, specifically examining if high COE prices influence housing location choices between central and distant towns.
+   - Analysis methods: 
+      - Price Trend Visualization
+      - Correlation Analysis
+      - Advanced Statistical Tests: Linear detrending analysis, Granger causality tests 
+   - See model [README](README_Car_COE_vs_HDB_price_relation.md) for details
 
 ### Data Folders
 - Processed_Data: Contains cleaned and enriched datasets
